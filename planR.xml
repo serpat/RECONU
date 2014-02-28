@@ -1,0 +1,349 @@
+<plan title="Reseau Esssai AMFL" rocguiversion="1.2.4 revision 231" rocrailversion="2.0.999-5550" rocrailpwd="/opt/rocrail" donkey="false" healthy="true">
+  <zlevel title="Main" z="0" active="true"/>
+  <bklist>
+    <bk id="7A" x="3" y="15" z="0" state="open" reserved="false" ori="east" entering="false" locid="" prev_id="7A" desc="" len="0" electrified="true" station="false" gomanual="true" acceptghost="false" terminalstation="false" wait="false" road="false" allowchgdir="false" commuter="no" turnouts="" ttid="" signal="F7A" wsignal="" signalR="" wsignalR="" speed="percent" exitspeed="cruise" type="none" incline="0" waitmode="random" minwaittime="1" maxwaittime="30" waittime="10" mvscale="87" mvdistance="0" mvmph="false" evttimer="0" iid="" addr="0" port="0" td="false" speedpercent="80" acceptident="false" updateenterside="true" managerid="" departdelay="0" smallsymbol="false" show="true" extstop="false" allowbbt="true" blankatredsignal="false" blankatredsignalR="false" stopspeed="mid" maxkmh="0" evttimer2="0" forceblocktimer="false" typeperm="" fifosize="0" cmd="loc">
+      <fbevent id="S7A" action="enter2in" from="all-reverse" endpuls="false" ghostdetection="false" byroute="all-reverse" use_timer2="false"/>
+      <fbevent id="S7A" action="enter2in" from="all" byroute="all" endpuls="false" use_timer2="false"/>
+    </bk>
+    <bk id="6B" x="4" y="7" z="0" state="open" reserved="false" ori="east" entering="false" locid="" prev_id="6B" desc="" len="0" electrified="true" station="false" gomanual="true" acceptghost="false" terminalstation="false" wait="false" road="false" allowchgdir="false" commuter="only" turnouts="" ttid="" signal="F6B" wsignal="" signalR="" wsignalR="" speed="cruise" exitspeed="cruise" type="none" incline="0" waitmode="loc" minwaittime="1" maxwaittime="30" waittime="10" mvscale="87" mvdistance="0" mvmph="false" evttimer="0" iid="" addr="0" port="0" td="false" acceptident="false" updateenterside="false" managerid="" departdelay="0" smallsymbol="false" show="true" extstop="false" allowbbt="true" blankatredsignal="false" blankatredsignalR="false" stopspeed="mid" maxkmh="0" evttimer2="0" forceblocktimer="false" typeperm="" fifosize="0">
+      <fbevent id="S6B" action="enter2in" from="all-reverse" endpuls="false" ghostdetection="false" byroute="all-reverse" use_timer2="false"/>
+      <fbevent id="S6B" action="enter2in" from="all" byroute="all" endpuls="false" use_timer2="false"/>
+    </bk>
+    <bk id="1" x="13" y="12" z="0" state="closed" reserved="false" prev_id="1" desc="" len="0" electrified="true" station="false" gomanual="true" acceptghost="false" terminalstation="false" wait="true" road="false" allowchgdir="true" commuter="no" turnouts="" ttid="" signal="" wsignal="" signalR="" wsignalR="" speed="cruise" exitspeed="cruise" type="none" incline="0" waitmode="random" minwaittime="1" maxwaittime="30" waittime="10" mvscale="87" mvdistance="0" mvmph="false" evttimer="0" iid="" addr="0" port="0" td="false" entering="false" locid="" acceptident="false" updateenterside="false" managerid="" departdelay="0" smallsymbol="false" show="true" extstop="false" allowbbt="true" blankatredsignal="false" blankatredsignalR="false" stopspeed="mid" maxkmh="0" evttimer2="0" forceblocktimer="false" typeperm=""/>
+    <bk id="3A" x="14" y="5" z="0" state="open" reserved="true" entering="false" locid="" prev_id="3A" desc="" len="1200" electrified="true" station="false" gomanual="true" acceptghost="false" terminalstation="false" wait="false" road="false" allowchgdir="false" commuter="no" turnouts="" ttid="" signal="F3A" wsignal="" signalR="" wsignalR="" speed="cruise" exitspeed="cruise" type="none" incline="1" waitmode="random" minwaittime="1" maxwaittime="30" waittime="0" mvscale="87" mvdistance="0" mvmph="false" evttimer="0" iid="" addr="0" port="0" td="false" acceptident="false" updateenterside="false" managerid="" departdelay="0" smallsymbol="false" show="true" extstop="false" allowbbt="true" blankatredsignal="false" blankatredsignalR="false" stopspeed="mid" maxkmh="0" evttimer2="0" forceblocktimer="false" typeperm="" fifosize="0" ori="west">
+      <fbevent id="S3A" action="enter2in" from="all-reverse" byroute="all-reverse" endpuls="false" use_timer2="false"/>
+      <fbevent id="S3A" action="enter2in" from="all" byroute="all" endpuls="false" use_timer2="false"/>
+    </bk>
+    <bk id="5" x="13" y="16" z="0" state="open" reserved="false" prev_id="5" desc="" len="0" electrified="true" station="false" gomanual="true" acceptghost="false" terminalstation="false" wait="false" road="false" allowchgdir="true" commuter="no" turnouts="" ttid="" signal="F5" wsignal="" signalR="" wsignalR="" speed="min" exitspeed="min" type="none" incline="0" waitmode="fixed" minwaittime="1" maxwaittime="30" waittime="5" mvscale="87" mvdistance="0" mvmph="false" evttimer="10" iid="" addr="0" port="0" td="false" entering="false" locid="" acceptident="false" updateenterside="false" managerid="" departdelay="0" smallsymbol="false" show="true" extstop="false" allowbbt="true" blankatredsignal="false" blankatredsignalR="false" stopspeed="mid" maxkmh="0" evttimer2="0" forceblocktimer="false" typeperm="" ori="east" fifosize="0">
+      <fbevent id="S5" action="enter2in" from="all-reverse" byroute="all-reverse" endpuls="false" use_timer2="false"/>
+      <fbevent id="S5" action="enter2in" from="all" byroute="all" endpuls="false" use_timer2="false"/>
+    </bk>
+    <bk id="4" x="13" y="15" z="0" state="open" reserved="false" prev_id="4" desc="" len="0" electrified="true" station="false" gomanual="true" acceptghost="false" terminalstation="false" wait="false" road="false" allowchgdir="true" commuter="no" turnouts="B1" ttid="" signal="F4" wsignal="" signalR="" wsignalR="" speed="min" exitspeed="min" type="none" incline="0" waitmode="random" minwaittime="1" maxwaittime="30" waittime="10" mvscale="87" mvdistance="0" mvmph="false" evttimer="10" iid="" addr="0" port="0" td="false" entering="false" locid="" acceptident="false" updateenterside="false" managerid="" departdelay="0" smallsymbol="false" show="true" extstop="false" allowbbt="true" blankatredsignal="false" blankatredsignalR="false" stopspeed="mid" maxkmh="0" evttimer2="0" forceblocktimer="false" typeperm="" ori="west" fifosize="0">
+      <fbevent id="S4" action="enter2in" from="all-reverse" endpuls="false" ghostdetection="false"/>
+      <fbevent id="S4" action="enter2in" from="all" byroute="all" endpuls="false" use_timer2="false"/>
+    </bk>
+    <bk id="2A" x="14" y="6" z="0" state="open" reserved="false" ori="east" entering="false" locid="" prev_id="2A" desc="" len="0" electrified="true" station="false" gomanual="true" acceptghost="false" terminalstation="false" wait="false" road="false" allowchgdir="false" commuter="no" turnouts="" ttid="" signal="F2A" wsignal="" signalR="" wsignalR="" speed="max" exitspeed="cruise" type="none" incline="0" waitmode="random" minwaittime="1" maxwaittime="30" waittime="10" mvscale="87" mvdistance="0" mvmph="false" evttimer="0" iid="" addr="0" port="0" td="false" acceptident="false" updateenterside="false" managerid="" departdelay="0" smallsymbol="false" show="true" extstop="false" allowbbt="true" blankatredsignal="false" blankatredsignalR="false" stopspeed="mid" maxkmh="0" evttimer2="0" forceblocktimer="false" typeperm="" fifosize="0">
+      <fbevent id="S2A" action="enter2in" from="all-reverse" endpuls="false" ghostdetection="false" byroute="all-reverse" use_timer2="false"/>
+      <fbevent id="S2A" action="enter2in" from="all" byroute="all" endpuls="false" use_timer2="false"/>
+    </bk>
+    <bk id="8" x="13" y="17" z="0" state="open" reserved="true" entering="false" prev_id="8" desc="" len="0" electrified="true" station="false" gomanual="true" acceptghost="false" terminalstation="false" wait="false" road="false" allowchgdir="true" commuter="no" turnouts="" ttid="" signal="F8" wsignal="" signalR="" wsignalR="" speed="mid" exitspeed="cruise" type="none" incline="0" waitmode="random" minwaittime="1" maxwaittime="30" waittime="10" mvscale="87" mvdistance="0" mvmph="false" evttimer="0" iid="" addr="0" port="0" td="false" locid="" speedpercent="40" acceptident="false" updateenterside="false" managerid="" departdelay="0" smallsymbol="false" show="true" extstop="false" allowbbt="true" blankatredsignal="false" blankatredsignalR="false" stopspeed="mid" maxkmh="0" evttimer2="0" forceblocktimer="false" typeperm="" fifosize="0" ori="east">
+      <fbevent id="S8" action="enter2in" from="all" endpuls="false" ghostdetection="false"/>
+      <fbevent id="S8" action="enter2in" from="all-reverse" endpuls="false" ghostdetection="false"/>
+    </bk>
+    <bk id="9" x="13" y="18" z="0" state="open" reserved="true" entering="false" prev_id="9" desc="" len="0" electrified="true" station="false" gomanual="true" acceptghost="false" terminalstation="false" wait="false" road="false" allowchgdir="true" commuter="no" turnouts="" ttid="" signal="F9" wsignal="" signalR="" wsignalR="" speed="cruise" exitspeed="cruise" type="none" incline="0" waitmode="random" minwaittime="1" maxwaittime="30" waittime="10" mvscale="87" mvdistance="0" mvmph="false" evttimer="5" iid="" addr="0" port="0" td="false" locid="" acceptident="false" updateenterside="false" managerid="" departdelay="0" smallsymbol="false" show="true" extstop="false" allowbbt="true" blankatredsignal="false" blankatredsignalR="false" stopspeed="mid" maxkmh="0" evttimer2="0" forceblocktimer="false" typeperm="" fifosize="0" ori="east">
+      <fbevent id="S9" action="enter2in" from="all" endpuls="false" ghostdetection="false"/>
+      <fbevent id="S9" action="enter2in" from="all-reverse" endpuls="false" ghostdetection="false" byroute="all-reverse" use_timer2="false"/>
+    </bk>
+    <bk id="3B" x="22" y="5" z="0" acceptident="false" reserved="false" entering="false" updateenterside="false" managerid="" locid="" state="open" ori="west" prev_id="3B" desc="" len="0" departdelay="0" electrified="true" gomanual="true" acceptghost="false" terminalstation="false" wait="false" road="false" allowchgdir="false" smallsymbol="false" show="true" extstop="false" allowbbt="true" commuter="no" ttid="" signal="F3B" wsignal="" signalR="" wsignalR="" blankatredsignal="false" blankatredsignalR="false" speed="cruise" exitspeed="cruise" stopspeed="mid" type="none" incline="0" waitmode="fixed" maxkmh="0" minwaittime="1" maxwaittime="30" waittime="3" mvscale="87" mvdistance="0" mvmph="false" evttimer="0" evttimer2="0" forceblocktimer="false" iid="" addr="0" port="0" td="false" typeperm="" fifosize="0">
+      <fbevent id="S3B" action="enter2in" from="all-reverse" byroute="all-reverse" endpuls="false" use_timer2="false"/>
+      <fbevent id="S3B" action="enter2in" from="all" byroute="all" endpuls="false" use_timer2="false"/>
+    </bk>
+    <bk id="3C" x="21" y="16" z="0" acceptident="false" reserved="false" entering="false" updateenterside="false" managerid="" locid="" state="open" ori="east" prev_id="3C" desc="" len="0" departdelay="0" fifosize="0" electrified="true" gomanual="true" acceptghost="false" terminalstation="false" wait="false" road="false" allowchgdir="false" smallsymbol="false" show="true" extstop="false" allowbbt="true" commuter="no" ttid="" signal="F3C" wsignal="" signalR="" wsignalR="" blankatredsignal="false" blankatredsignalR="false" speed="cruise" exitspeed="cruise" stopspeed="mid" type="none" incline="0" waitmode="random" maxkmh="42" minwaittime="1" maxwaittime="30" waittime="10" mvscale="87" mvdistance="0" mvmph="false" evttimer="0" evttimer2="0" forceblocktimer="false" iid="" addr="0" port="0" td="false" typeperm="">
+      <fbevent id="S3C" action="enter2in" from="all-reverse" byroute="all-reverse" endpuls="false" use_timer2="false"/>
+      <fbevent id="S3C" action="enter2in" from="all" byroute="all" endpuls="false" use_timer2="false"/>
+    </bk>
+    <bk id="7B" x="3" y="6" z="0" acceptident="false" reserved="false" entering="false" updateenterside="false" managerid="" locid="" state="open" prev_id="7B" desc="" len="100" departdelay="0" fifosize="0" electrified="true" gomanual="true" acceptghost="false" terminalstation="false" wait="false" road="false" allowchgdir="false" smallsymbol="false" show="true" extstop="false" allowbbt="true" commuter="no" ttid="" signal="F7B" wsignal="" signalR="" wsignalR="" blankatredsignal="false" blankatredsignalR="false" speed="cruise" exitspeed="cruise" stopspeed="mid" type="none" incline="0" waitmode="random" maxkmh="0" minwaittime="1" maxwaittime="30" waittime="10" mvscale="87" mvdistance="0" mvmph="false" evttimer="0" evttimer2="0" forceblocktimer="false" iid="" addr="0" port="0" td="false" typeperm="" ori="west">
+      <fbevent id="S7B" action="enter2in" from="all" byroute="all" endpuls="false" use_timer2="false"/>
+      <fbevent id="S7B" action="enter2in" from="all-reverse" byroute="all-reverse" endpuls="false" use_timer2="false"/>
+    </bk>
+    <bk id="6A" x="3" y="14" z="0" acceptident="false" reserved="false" entering="false" updateenterside="false" managerid="" locid="" state="open" prev_id="6A" desc="" len="0" departdelay="0" fifosize="0" electrified="true" gomanual="true" acceptghost="false" terminalstation="false" wait="false" road="false" allowchgdir="false" smallsymbol="false" show="true" extstop="false" allowbbt="true" commuter="no" ttid="" signal="F6A" wsignal="" signalR="" wsignalR="" blankatredsignal="false" blankatredsignalR="false" speed="cruise" exitspeed="cruise" stopspeed="mid" type="none" incline="0" waitmode="random" maxkmh="0" minwaittime="1" maxwaittime="30" waittime="10" mvscale="87" mvdistance="0" mvmph="false" evttimer="0" evttimer2="0" forceblocktimer="false" iid="" addr="0" port="0" td="false" typeperm="" ori="west">
+      <fbevent id="S6A" action="enter2in" from="all-reverse" byroute="all-reverse" endpuls="false" use_timer2="false"/>
+      <fbevent id="S6A" action="enter2in" from="all" byroute="all" endpuls="false" use_timer2="false"/>
+    </bk>
+    <bk id="2B" x="21" y="15" z="0" acceptident="false" reserved="false" entering="false" updateenterside="false" managerid="" locid="" state="open" prev_id="2B" desc="" len="0" departdelay="0" fifosize="0" electrified="true" gomanual="true" acceptghost="false" terminalstation="false" wait="false" road="false" allowchgdir="false" smallsymbol="false" show="true" extstop="false" allowbbt="true" commuter="no" ttid="" signal="F2B" wsignal="" signalR="" wsignalR="" blankatredsignal="false" blankatredsignalR="false" speed="cruise" exitspeed="cruise" stopspeed="mid" type="none" incline="0" waitmode="random" maxkmh="0" minwaittime="1" maxwaittime="30" waittime="10" mvscale="87" mvdistance="0" mvmph="false" evttimer="0" evttimer2="0" forceblocktimer="false" iid="" addr="0" port="0" td="false" typeperm="" ori="west">
+      <fbevent id="S2B" action="enter2in" from="all-reverse" byroute="all-reverse" endpuls="false" use_timer2="false"/>
+      <fbevent id="S2B" action="enter2in" from="all" byroute="all" endpuls="false" use_timer2="false"/>
+    </bk>
+  </bklist>
+  <tklist>
+    <tk type="curve" id="tk20090727231937296" x="1" y="7" z="0" ori="north" prev_id="tk20090727231937296" blockid="6B" road="false" routeids="autogen-[6B-]-[6A+]"/>
+    <tk type="curve" id="tk20090727231953843" x="0" y="6" z="0" ori="north" prev_id="tk20090727231953843" blockid="7B" road="false" routeids="autogen-[7A-]-[7B+]"/>
+    <tk type="curve" id="tk20090727232002546" x="9" y="7" z="0" ori="south" prev_id="tk20090727232002546" blockid="6B" road="false" routeids="autogen-[3A+]-[6B+],autogen-[2A-]-[6B+],autogen-[6B+]-[2A-],autogen-[6B+]-[3A+]"/>
+    <tk type="curve" id="tk20090727232045671" x="11" y="14" z="0" ori="north" routeids=""/>
+    <tk type="curve" id="tk20090727232054984" x="12" y="14" z="0" ori="south" routeids=""/>
+    <tk type="curve" id="tk20090727232346281" x="12" y="8" z="0" ori="east" prev_id="tk20090727232346281" blockid="" road="false" routeids=""/>
+    <tk type="curve" id="tk20090727232353234" x="13" y="8" z="0" prev_id="tk20090727232353234" blockid="" road="false" ori="west" routeids=""/>
+    <tk type="curve" id="tk20090727232354796" x="11" y="7" z="0" ori="east" routeids=""/>
+    <tk type="curve" id="tk20090727232528906" x="14" y="10" z="0" ori="east" prev_id="tk20090727232528906" blockid="" road="false" routeids=""/>
+    <tk type="curve" id="tk20090728000022281" x="16" y="10" z="0" ori="south" prev_id="tk20090728000022281" blockid="" road="false" routeids=""/>
+    <tk type="curve" id="tk20090728000119906" x="16" y="9" z="0" ori="north" routeids=""/>
+    <tk type="curve" id="tk20090728000151406" x="17" y="9" z="0" ori="south" prev_id="tk20090728000151406" blockid="" road="false" routeids=""/>
+    <tk type="curve" id="tk20090728000158593" x="17" y="8" z="0" ori="north" prev_id="tk20090728000158593" blockid="" road="false" routeids=""/>
+    <tk type="curve" id="tk20090728000231828" x="18" y="8" z="0" ori="south" prev_id="tk20090728000231828" blockid="" road="false" routeids=""/>
+    <tk type="curve" id="tk20090728000512093" x="12" y="5" z="0" ori="north" prev_id="tk20090728000512093" blockid="3A" road="false" routeids="autogen-[3A+]-[6B+],autogen-[7B-]-[3A+],autogen-[6B+]-[3A+]"/>
+    <tk type="curve" id="tk20090728001746703" x="0" y="15" z="0" prev_id="tk20090728001746703" blockid="7A" road="false" ori="east" routeids="autogen-[7A-]-[7B+]"/>
+    <tk type="curve" id="tk20090728002015546" x="8" y="14" z="0" prev_id="tk20090728002015546" blockid="6A" road="false" ori="west" routeids="autogen-[6A-]-[5-],autogen-[6A-]-[8-],autogen-[6A-]-[9-],autogen-[6A-]-[4+],autogen-[4+]-[6A-],autogen-[5-]-[6A-],autogen-[8-]-[6A-],autogen-[9-]-[6A-]"/>
+    <tk type="curve" id="tk20090728002204562" x="12" y="13" z="0" ori="north" routeids=""/>
+    <tk type="curve" id="tk20090728002218625" x="13" y="13" z="0" ori="south" routeids=""/>
+    <tk type="curve" id="tk20090728002325703" x="13" y="9" z="0" ori="east" routeids=""/>
+    <tk type="curve" id="tk20090728002332875" x="14" y="11" z="0" ori="north" routeids=""/>
+    <tk type="curve" id="tk20090728002543250" x="12" y="7" z="0" routeids=""/>
+    <tk type="curve" id="tk20090728002852046" x="9" y="16" z="0" ori="east" prev_id="tk20090728002852046" blockid="" road="false" routeids="autogen-[6A-]-[5-],autogen-[6A-]-[8-],autogen-[6A-]-[9-],autogen-[7A+]-[5-],autogen-[7A+]-[8-],autogen-[7A+]-[9-],autogen-[5-]-[6A-],autogen-[5-]-[7A+],autogen-[8-]-[6A-],autogen-[8-]-[7A+],autogen-[9-]-[6A-],autogen-[9-]-[7A+]"/>
+    <tk type="curve" id="tk20090728002922984" x="10" y="17" z="0" ori="east" prev_id="tk20090728002922984" blockid="" road="false" routeids="autogen-[6A-]-[8-],autogen-[6A-]-[9-],autogen-[7A+]-[8-],autogen-[7A+]-[9-],autogen-[8-]-[6A-],autogen-[8-]-[7A+],autogen-[9-]-[6A-],autogen-[9-]-[7A+]"/>
+    <tk type="curve" id="tk20090728003104000" x="16" y="11" z="0" routeids=""/>
+    <tk type="curve" id="tk20090728003114140" x="17" y="12" z="0" routeids="autogen-[1-]-[2B+],autogen-[2B+]-[1-]" blockid="1"/>
+    <tk type="curve" id="tk20090728003117125" x="17" y="13" z="0" ori="east" routeids="autogen-[1-]-[2B+],autogen-[2B+]-[1-]" blockid="1"/>
+    <tk type="curve" id="tk20090728003124734" x="18" y="13" z="0" routeids="autogen-[1-]-[2B+],autogen-[2B+]-[1-]" blockid="1"/>
+    <tk type="curve" id="tk20090728003127343" x="18" y="14" z="0" ori="east" routeids="autogen-[1-]-[2B+],autogen-[2B+]-[1-]" blockid="1"/>
+    <tk type="curve" id="tk20090728003135343" x="19" y="14" z="0" routeids="autogen-[1-]-[2B+],autogen-[2B+]-[1-]" blockid="1"/>
+    <tk type="straight" id="tk20090728003346593" x="19" y="16" z="0" prev_id="tk20090728003346593" blockid="3C" road="false" routeids="autogen-[4-]-[3C-],autogen-[5+]-[3C-],autogen-[3C-]-[5+],autogen-[3C-]-[4-]" ori="west"/>
+    <tk type="curve" id="tk20090728003556000" x="26" y="15" z="0" ori="south" routeids="autogen-[2B-]-[2A+]" blockid="2B"/>
+    <tk type="straight" id="tk20090728003652984" x="27" y="14" z="0" ori="north" prev_id="tk20090728003652984" blockid="3C" road="false" routeids="autogen-[3B-]-[3C+]"/>
+    <tk type="curve" id="tk20090728003655984" x="27" y="16" z="0" ori="south" prev_id="tk20090728003655984" blockid="3C" road="false" routeids="autogen-[3B-]-[3C+]" tknr="1"/>
+    <tk type="straight" id="tk20090728003828609" x="20" y="6" z="0" routeids="autogen-[2B-]-[2A+]" blockid="2B"/>
+    <tk type="curve" id="tk20090728003834421" x="26" y="6" z="0" routeids="autogen-[2B-]-[2A+]" blockid="2B"/>
+    <tk type="straight" id="tk20090728003921984" x="27" y="7" z="0" ori="north" prev_id="tk20090728003921984" blockid="3B" road="false" routeids="autogen-[3B-]-[3C+]"/>
+    <tk type="curve" id="tk20090728003924406" x="27" y="5" z="0" prev_id="tk20090728003924406" blockid="3B" road="false" routeids="autogen-[3B-]-[3C+]" ori="west"/>
+    <tk type="straight" id="tk20090728003929296" x="20" y="5" z="0" prev_id="tk20090728003929296" blockid="" road="false" routeids="autogen-[3A-]-[3B+],autogen-[3B+]-[3A-]" ori="west" tknr="1"/>
+    <tk type="curve" id="tk20090728003935281" x="18" y="7" z="0" ori="north" routeids=""/>
+    <tk type="curve" id="tk20090728003952890" x="19" y="7" z="0" ori="south" routeids=""/>
+    <tk type="curve" id="tk20090729234630203" x="11" y="18" z="0" ori="east" prev_id="tk20090729234630203" blockid="9" road="false" routeids="autogen-[6A-]-[9-],autogen-[7A+]-[9-],autogen-[9-]-[6A-],autogen-[9-]-[7A+]"/>
+    <tk type="buffer" id="tk20090729234702046" x="18" y="17" z="0" prev_id="tk20090729234702046" blockid="8" road="false" ori="west" routeids=""/>
+    <tk type="buffer" id="tk20090729234705671" x="18" y="18" z="0" prev_id="tk20090729234705671" blockid="9" road="false" ori="west" routeids=""/>
+    <tk type="straight" ori="south" id="tk20140226100512451" x="27" y="15" z="0" prev_id="tk20140226100512451" blockid="3C" road="false" routeids="autogen-[3B-]-[3C+]" tknr="1"/>
+    <tk type="straight" ori="south" id="tk20140226100539576" x="27" y="6" z="0" routeids="autogen-[3B-]-[3C+]" blockid="3B"/>
+    <tk type="straight" ori="east" id="tk20140226101626116" x="11" y="16" z="0" prev_id="tk20140226101626116" blockid="5" road="false" routeids="autogen-[6A-]-[5-],autogen-[7A+]-[5-],autogen-[5-]-[6A-],autogen-[5-]-[7A+]" tknr="1"/>
+    <tk type="straight" ori="south" id="tk20140226102413358" x="0" y="7" z="0" routeids="autogen-[7A-]-[7B+]" blockid="7B"/>
+    <tk type="straight" ori="south" id="tk20140226102420160" x="0" y="8" z="0" routeids="autogen-[7A-]-[7B+]" blockid="7B"/>
+    <tk type="straight" ori="south" id="tk20140226102421571" x="0" y="9" z="0" routeids="autogen-[7A-]-[7B+]" blockid="7B"/>
+    <tk type="straight" ori="south" id="tk20140226102422617" x="0" y="11" z="0" routeids="autogen-[7A-]-[7B+]" blockid="7A"/>
+    <tk type="straight" ori="south" id="tk20140226102423479" x="0" y="12" z="0" routeids="autogen-[7A-]-[7B+]" blockid="7A"/>
+    <tk type="straight" ori="south" id="tk20140226102424301" x="0" y="13" z="0" routeids="autogen-[7A-]-[7B+]" blockid="7A"/>
+    <tk type="straight" ori="south" id="tk20140226102424877" x="0" y="14" z="0" routeids="autogen-[7A-]-[7B+]" blockid="7A"/>
+    <tk type="straight" ori="east" id="tk20140226102745392" x="19" y="5" z="0" prev_id="tk20140226102745392" blockid="" road="false" routeids="autogen-[3A-]-[3B+],autogen-[3B+]-[3A-]" tknr="1"/>
+    <tk type="straight" ori="east" id="tk20140226103235641" x="1" y="6" z="0" routeids="autogen-[7A-]-[7B+]" blockid="7B"/>
+    <tk type="straight" ori="east" id="tk20140226103236471" x="2" y="7" z="0" routeids="autogen-[6B-]-[6A+]" blockid="6B"/>
+    <tk type="straight" ori="west" id="tk20140226103239425" x="1" y="15" z="0" routeids="autogen-[7A-]-[7B+]" blockid="7A"/>
+    <tk type="straight" ori="south" id="tk20140226103252091" x="1" y="8" z="0" routeids="autogen-[6B-]-[6A+]" blockid="6B"/>
+    <tk type="straight" ori="south" id="tk20140226103304139" x="1" y="9" z="0" routeids="autogen-[6B-]-[6A+]" blockid="6B"/>
+    <tk type="straight" ori="south" id="tk20140226103305200" x="1" y="11" z="0" routeids="autogen-[6B-]-[6A+]" blockid="6A"/>
+    <tk type="straight" ori="south" id="tk20140226103306224" x="1" y="12" z="0" routeids="autogen-[6B-]-[6A+]" blockid="6A"/>
+    <tk type="straight" ori="south" id="tk20140226103308762" x="1" y="13" z="0" routeids="autogen-[6B-]-[6A+]" blockid="6A"/>
+    <tk type="curve" ori="east" id="tk20140226103331529" x="1" y="14" z="0" routeids="autogen-[6B-]-[6A+]" blockid="6A"/>
+    <tk type="straight" ori="north" id="tk20140226104913891" x="27" y="8" z="0" routeids="autogen-[3B-]-[3C+]" blockid="3B"/>
+    <tk type="straight" ori="north" id="tk20140226104924919" x="27" y="9" z="0" routeids="autogen-[3B-]-[3C+]" blockid="3B"/>
+    <tk type="straight" ori="north" id="tk20140226104925893" x="27" y="11" z="0" routeids="autogen-[3B-]-[3C+]" blockid="3C"/>
+    <tk type="straight" ori="north" id="tk20140226104926349" x="27" y="12" z="0" routeids="autogen-[3B-]-[3C+]" blockid="3C"/>
+    <tk type="straight" ori="north" id="tk20140226104926931" x="27" y="13" z="0" prev_id="tk20140226104926931" blockid="3C" road="false" routeids="autogen-[3B-]-[3C+]" tknr="1"/>
+    <tk type="straight" ori="south" id="tk20140226104931587" x="26" y="14" z="0" routeids="autogen-[2B-]-[2A+]" blockid="2B"/>
+    <tk type="straight" ori="south" id="tk20140226104932353" x="26" y="13" z="0" routeids="autogen-[2B-]-[2A+]" blockid="2B"/>
+    <tk type="straight" ori="south" id="tk20140226104944127" x="26" y="12" z="0" routeids="autogen-[2B-]-[2A+]" blockid="2B"/>
+    <tk type="straight" ori="south" id="tk20140226104949315" x="26" y="11" z="0" routeids="autogen-[2B-]-[2A+]" blockid="2B"/>
+    <tk type="straight" ori="south" id="tk20140226104950459" x="26" y="9" z="0" routeids="autogen-[2B-]-[2A+]" blockid="2B"/>
+    <tk type="straight" ori="south" id="tk20140226104951083" x="26" y="8" z="0" routeids="autogen-[2B-]-[2A+]" blockid="2B"/>
+    <tk type="straight" ori="south" id="tk20140226104951643" x="26" y="7" z="0" routeids="autogen-[2B-]-[2A+]" blockid="2B"/>
+    <tk type="straight" ori="east" id="tk20140226104956641" x="21" y="6" z="0" routeids="autogen-[2B-]-[2A+]" blockid="2B"/>
+    <tk type="straight" ori="east" id="tk20140226105005927" x="22" y="6" z="0" routeids="autogen-[2B-]-[2A+]" blockid="2B"/>
+    <tk type="straight" ori="east" id="tk20140226105006383" x="23" y="6" z="0" routeids="autogen-[2B-]-[2A+]" blockid="2B"/>
+    <tk type="straight" ori="east" id="tk20140226105006847" x="24" y="6" z="0" routeids="autogen-[2B-]-[2A+]" blockid="2B"/>
+    <tk type="straight" ori="east" id="tk20140226105007479" x="25" y="6" z="0" routeids="autogen-[2B-]-[2A+]" blockid="2B"/>
+    <tk type="straight" ori="west" id="tk20140226105010187" x="26" y="16" z="0" prev_id="tk20140226105010187" blockid="3C" road="false" routeids="autogen-[3B-]-[3C+]" tknr="1"/>
+    <tk type="dir" id="tk20140228085510390" x="0" y="10" z="0" ori="south" routeids="autogen-[7A-]-[7B+]"/>
+    <tk type="dir" id="tk20140228085528042" x="1" y="10" z="0" ori="north" routeids="autogen-[6B-]-[6A+]"/>
+    <tk type="dir" ori="south" id="tk20140228085552048" x="26" y="10" z="0" routeids="autogen-[2B-]-[2A+]" blockid="2B"/>
+    <tk type="dir" id="tk20140228085610872" x="27" y="10" z="0" ori="north" routeids="autogen-[3B-]-[3C+]"/>
+    <tk type="dir" id="tk20140228095215624" x="8" y="6" z="0" ori="east" routeids="autogen-[7B-]-[2A-],autogen-[7B-]-[3A+]" blockid="7B"/>
+  </tklist>
+  <swlist>
+    <sw type="left" id="A5" x="9" y="6" z="0" prev_id="A5" blockid="" accnr="1" savepos="none" dir="false" swtype="default" road="false" ori="west" iid="" bus="0" addr1="1" port1="1" gate1="0" inv="false" singlegate="false" addr2="0" port2="0" inv2="false" actdelay="false" delay="0" prot="D" fbRinv="false" fbGinv="false" fb2Rinv="false" fb2Ginv="false" state="straight" routeids="" fieldstate="straight" switched="98" testing="false"/>
+    <sw type="right" id="A6" x="11" y="6" z="0" prev_id="A6" blockid="" accnr="1" savepos="none" dir="true" swtype="default" road="false" ori="west" iid="" bus="0" addr1="1" port1="2" gate1="0" inv="true" singlegate="false" addr2="0" port2="0" inv2="false" actdelay="false" delay="0" prot="D" fbRinv="false" fbGinv="false" fb2Rinv="false" fb2Ginv="false" state="straight" routeids="" fieldstate="straight" switched="100"/>
+    <sw type="left" id="A7" x="12" y="6" z="0" ori="east" prev_id="A7" blockid="" accnr="1" savepos="none" dir="false" swtype="default" road="false" iid="" bus="0" addr1="1" port1="3" gate1="0" inv="true" singlegate="false" addr2="0" port2="0" inv2="false" actdelay="false" delay="0" prot="N" fbRinv="false" fbGinv="false" fb2Rinv="false" fb2Ginv="false" state="turnout" routeids="" fieldstate="turnout" switched="98"/>
+    <sw type="dcrossing" id="TJD" x="8" y="15" z="0" ori="west" prev_id="TJD" blockid="" accnr="1" savepos="none" dir="true" swtype="default" road="false" iid="" bus="0" addr1="2" port1="2" gate1="0" inv="false" singlegate="false" addr2="2" port2="3" inv2="false" actdelay="false" delay="0" prot="D" fbRinv="false" fbGinv="false" fb2Rinv="false" fb2Ginv="false" state="left" routeids="" fieldstate="left" switched="91"/>
+    <sw type="left" id="A3" x="11" y="15" z="0" ori="east" prev_id="A3" blockid="" accnr="2" savepos="none" dir="false" swtype="default" road="false" iid="" bus="0" addr1="2" port1="4" gate1="0" inv="false" singlegate="false" addr2="0" port2="0" inv2="false" actdelay="false" delay="0" prot="D" fbRinv="false" fbGinv="false" fb2Rinv="false" fb2Ginv="false" state="straight" routeids="" fieldstate="straight" switched="29"/>
+    <sw type="right" id="A2" x="10" y="16" z="0" prev_id="A2" blockid="" accnr="2" savepos="none" dir="true" swtype="default" road="false" ori="west" iid="" bus="0" addr1="3" port1="3" gate1="0" inv="true" singlegate="false" addr2="0" port2="0" inv2="false" actdelay="false" delay="0" prot="D" fbRinv="false" fbGinv="false" fb2Rinv="false" fb2Ginv="false" state="straight" routeids="" fieldstate="straight" switched="60"/>
+    <sw type="right" id="A1" x="11" y="17" z="0" prev_id="A1" blockid="" accnr="2" savepos="none" dir="true" swtype="default" road="false" ori="west" iid="" bus="0" addr1="3" port1="4" gate1="0" inv="true" singlegate="false" addr2="0" port2="0" inv2="false" actdelay="false" delay="0" prot="D" fbRinv="false" fbGinv="false" fb2Rinv="false" fb2Ginv="false" state="turnout" routeids="" fieldstate="turnout" switched="27"/>
+    <sw type="right" id="A4" x="19" y="15" z="0" prev_id="A4" blockid="" accnr="2" savepos="none" dir="true" swtype="default" road="false" ori="east" iid="" bus="0" addr1="3" port1="2" gate1="0" inv="true" singlegate="false" addr2="0" port2="0" inv2="false" actdelay="false" delay="0" prot="D" fbRinv="false" fbGinv="false" fb2Rinv="false" fb2Ginv="false" state="straight" routeids="" fieldstate="straight" switched="18"/>
+    <sw type="right" id="B1" x="18" y="15" z="0" prev_id="B1" blockid="" accnr="2" savepos="none" dir="true" swtype="default" road="false" ori="west" iid="" bus="0" addr1="3" port1="1" gate1="0" inv="true" singlegate="false" addr2="0" port2="0" inv2="false" actdelay="false" delay="0" prot="D" fbRinv="false" fbGinv="false" fb2Rinv="false" fb2Ginv="false" state="straight" routeids="" fieldstate="straight" switched="28"/>
+    <sw type="right" id="B2" x="18" y="16" z="0" ori="east" prev_id="B2" blockid="" accnr="1" savepos="none" dir="true" swtype="default" road="false" iid="" bus="0" addr1="3" port1="1" gate1="0" inv="true" singlegate="false" addr2="0" port2="0" inv2="false" actdelay="false" delay="0" prot="D" fbRinv="false" fbGinv="false" fb2Rinv="false" fb2Ginv="false" state="straight" routeids="" fieldstate="straight" switched="57"/>
+    <sw type="left" id="A8" x="19" y="6" z="0" prev_id="A8" blockid="" accnr="1" savepos="none" dir="false" swtype="default" road="false" ori="west" iid="" bus="0" addr1="2" port1="1" gate1="0" inv="false" singlegate="false" addr2="0" port2="0" inv2="false" actdelay="false" delay="0" prot="N" fbRinv="false" fbGinv="false" fb2Rinv="false" fb2Ginv="false" state="straight" fieldstate="straight" switched="18" routeids=""/>
+    <sw type="ccrossing" id="X" x="15" y="10" z="0" prev_id="X" blockid="" accnr="1" savepos="none" dir="false" swtype="default" road="false" ori="north" iid="" bus="0" addr1="0" port1="0" gate1="0" inv="false" singlegate="false" addr2="0" port2="0" inv2="false" actdelay="false" delay="0" prot="D" fbRinv="false" fbGinv="false" fb2Rinv="false" fb2Ginv="false" routeids=""/>
+  </swlist>
+  <fblist>
+    <fb id="S1" x="14" y="9" z="0" ori="west" prev_id="S1" desc="" show="true" road="false" curve="true" blockid="" iid="" bus="0" addr="527" activelow="false" state="false" routeids="" identifier="0"/>
+    <fb id="S11" x="10" y="6" z="0" prev_id="S11" desc="" show="true" road="false" curve="false" blockid="" ori="west" iid="" bus="0" addr="526" activelow="false" state="true" identifier="" routeids="autogen-[3A+]-[6B+],autogen-[7B-]-[2A-],autogen-[7B-]-[3A+],autogen-[2A-]-[6B+],autogen-[6B+]-[2A-],autogen-[6B+]-[3A+]" shortcut="false" counter="2" wheelcount="0" carcount="0" countedcars="0" val="0" load="0"/>
+    <fb id="S7B" x="2" y="6" z="0" prev_id="S7B" desc="" show="true" road="false" curve="false" blockid="7B" ori="west" iid="" bus="0" addr="522" activelow="false" state="false" identifier="" routeids="autogen-[7A-]-[7B+]" counter="6" load="0" shortcut="false" wheelcount="0" carcount="0" countedcars="0" val="0" accnr="0" timer="0" cutoutbus="0" cutoutaddr="0" fbtype="0" resetwc="true" ctciid="" ctcaddr="0" ctcport="0" ctcgate="0" ctcasswitch="false"/>
+    <fb id="S6B" x="8" y="7" z="0" ori="east" prev_id="S6B" desc="" show="true" road="false" curve="false" blockid="6B" iid="" bus="0" addr="520" activelow="false" state="false" routeids="autogen-[3A+]-[6B+],autogen-[2A-]-[6B+],autogen-[6B+]-[2A-],autogen-[6B+]-[3A+]" identifier="" counter="4" load="0" shortcut="false" wheelcount="0" carcount="0" countedcars="0" val="0" accnr="0" timer="0" cutoutbus="0" cutoutaddr="0" fbtype="0" resetwc="true" ctciid="" ctcaddr="0" ctcport="0" ctcgate="0" ctcasswitch="false"/>
+    <fb id="S7A" x="7" y="15" z="0" prev_id="S7A" desc="" show="true" road="false" curve="false" blockid="7A" ori="east" iid="" bus="0" addr="521" activelow="false" state="false" identifier="" routeids="autogen-[7A+]-[4+],autogen-[7A+]-[5-],autogen-[7A+]-[8-],autogen-[7A+]-[9-],autogen-[4+]-[7A+],autogen-[5-]-[7A+],autogen-[8-]-[7A+],autogen-[9-]-[7A+]" counter="7" load="0" shortcut="false" wheelcount="0" carcount="0" countedcars="0" val="0" accnr="0" timer="0" cutoutbus="0" cutoutaddr="0" fbtype="0" resetwc="true" ctciid="" ctcaddr="0" ctcport="0" ctcgate="0" ctcasswitch="false"/>
+    <fb id="S6A" x="2" y="14" z="0" ori="east" prev_id="S6A" desc="" show="true" road="false" curve="false" blockid="6A" iid="" bus="0" addr="519" activelow="false" state="false" routeids="autogen-[6B-]-[6A+]" identifier="" counter="7" load="0" shortcut="false" wheelcount="0" carcount="0" countedcars="0" val="0" accnr="0" timer="0" cutoutbus="0" cutoutaddr="0" fbtype="0" resetwc="true" ctciid="" ctcaddr="0" ctcport="0" ctcgate="0" ctcasswitch="false"/>
+    <fb id="S10" x="10" y="15" z="0" state="false" prev_id="S10" desc="" show="true" road="false" curve="false" blockid="" ori="west" iid="" bus="0" addr="525" activelow="false" identifier="" routeids="autogen-[6A-]-[4+],autogen-[7A+]-[4+],autogen-[4+]-[7A+],autogen-[4+]-[6A-]" counter="1" load="0"/>
+    <fb id="S4" x="12" y="15" z="0" prev_id="S4" desc="" show="true" road="false" curve="false" blockid="4" ori="west" iid="" bus="0" addr="517" activelow="false" state="false" routeids="autogen-[6A-]-[4+],autogen-[7A+]-[4+],autogen-[4+]-[7A+],autogen-[4+]-[6A-]" identifier="" counter="6" load="0" shortcut="false" wheelcount="0" carcount="0" countedcars="0" val="0" accnr="0" timer="0" cutoutbus="0" cutoutaddr="0" fbtype="0" resetwc="true" ctciid="" ctcaddr="0" ctcport="0" ctcgate="0" ctcasswitch="false"/>
+    <fb id="S5" x="17" y="16" z="0" prev_id="S5" desc="" show="true" road="false" curve="false" blockid="5" ori="west" iid="" bus="0" addr="518" activelow="false" state="false" routeids="autogen-[5+]-[3C-],autogen-[3C-]-[5+]" identifier="" counter="4" load="0" shortcut="false" wheelcount="0" carcount="0" countedcars="0" val="0" accnr="0" timer="0" cutoutbus="0" cutoutaddr="0" fbtype="0" resetwc="true" ctciid="" ctcaddr="0" ctcport="0" ctcgate="0" ctcasswitch="false"/>
+    <fb id="S8" x="17" y="17" z="0" prev_id="S8" desc="" show="true" road="false" curve="false" blockid="8" ori="west" iid="" bus="0" addr="523" activelow="false" state="false" identifier="" routeids="" shortcut="false" counter="1" wheelcount="0" carcount="0" countedcars="0" val="0" load="0" accnr="0" timer="0" cutoutbus="0" cutoutaddr="0" fbtype="0" resetwc="true" ctciid="" ctcaddr="0" ctcport="0" ctcgate="0" ctcasswitch="false"/>
+    <fb id="S9" x="17" y="18" z="0" prev_id="S9" desc="" show="true" road="false" curve="false" blockid="9" ori="west" iid="" bus="0" addr="524" activelow="false" state="false" identifier="" routeids="" shortcut="false" counter="2" wheelcount="0" carcount="0" countedcars="0" val="0" load="0" accnr="0" timer="0" cutoutbus="0" cutoutaddr="0" fbtype="0" resetwc="true" ctciid="" ctcaddr="0" ctcport="0" ctcgate="0" ctcasswitch="false"/>
+    <fb id="S3A" x="13" y="5" z="0" state="false" prev_id="S3A" desc="" show="true" road="false" curve="false" blockid="3A" ori="west" iid="" bus="0" addr="514" activelow="false" identifier="" routeids="autogen-[3A+]-[6B+],autogen-[7B-]-[3A+],autogen-[6B+]-[3A+]" shortcut="false" carcount="0" countedcars="0" counter="5" load="0" wheelcount="0" val="0" accnr="0" timer="0" cutoutbus="0" cutoutaddr="0" fbtype="0" resetwc="true" ctciid="" ctcaddr="0" ctcport="0" ctcgate="0" ctcasswitch="false"/>
+    <fb id="S3C" x="25" y="16" z="0" state="false" prev_id="S3C" desc="" show="true" road="false" curve="false" blockid="3C" ori="east" iid="" bus="0" addr="516" activelow="false" identifier="" routeids="autogen-[3B-]-[3C+]" shortcut="false" carcount="0" countedcars="0" counter="6" load="0" wheelcount="0" val="0" accnr="0" timer="0" cutoutbus="0" cutoutaddr="0" fbtype="0" resetwc="true" ctciid="" ctcaddr="0" ctcport="0" ctcgate="0" ctcasswitch="false"/>
+    <fb id="S3B" x="21" y="5" z="0" ori="west" state="false" prev_id="S3B" desc="" show="true" road="false" curve="false" blockid="3B" iid="" bus="0" addr="515" activelow="false" identifier="" routeids="autogen-[3A-]-[3B+],autogen-[3B+]-[3A-]" shortcut="false" carcount="0" countedcars="0" counter="5" load="0" wheelcount="0" val="0" accnr="0" timer="0" cutoutbus="0" cutoutaddr="0" fbtype="0" resetwc="true" ctciid="" ctcaddr="0" ctcport="0" ctcgate="0" ctcasswitch="false"/>
+    <fb id="S2A" x="18" y="6" z="0" ori="west" state="false" prev_id="S2A" desc="" show="true" road="false" curve="false" blockid="2A" iid="" bus="0" addr="512" activelow="false" identifier="" routeids="autogen-[2B-]-[2A+]" counter="3" load="0" shortcut="false" wheelcount="0" carcount="0" countedcars="0" val="0"/>
+    <fb id="S2B" x="20" y="15" z="0" ori="west" state="false" prev_id="S2B" desc="" show="true" road="false" curve="false" blockid="2B" iid="" bus="0" addr="513" activelow="false" identifier="" routeids="autogen-[1-]-[2B+],autogen-[4-]-[2B+],autogen-[2B+]-[4-],autogen-[2B+]-[1-]" counter="3" load="0" shortcut="false" wheelcount="0" carcount="0" countedcars="0" val="0" accnr="0" timer="0" cutoutbus="0" cutoutaddr="0" fbtype="0" resetwc="true" ctciid="" ctcaddr="0" ctcport="0" ctcgate="0" ctcasswitch="false"/>
+  </fblist>
+  <lclist>
+    <lc id="67500" cmd="swap" blockid="" prev_id="67500" desc="" image="e41.png" remark="" len="0" catnr="" purchased="" runtime="3378" identifier="0" show="true" bus="0" addr="4" iid="" prot="P" protver="1" spcnt="128" fncnt="4" V_min="15" V_mid="35" V_max="60" V_Rmin="0" V_Rmid="0" V_Rmax="0" V_step="0" mass="5" V_mode="percent" placing="true" regulated="true" dirpause="0" blockwaittime="0" evttimer="0" usescheduletime="false" commuter="false" trysamedir="false" tryoppositedir="false" engine="diesel" cargo="none" secondnextblock="false" fn="true" consist="" V="0" dir="true" fx="0" server="infw00E2C76C" mode="idle" scidx="-1" destblockid="" V_hint="mid" shortid="" roadname="" number="" forcesamedir="false" shortin="false" inatpre2in="false" consist_lightsoff="false" resumeauto="true" throttleid="" trainlen="0" blockenterside="true">
+      <fundef fn="1" text="" timer="0"/>
+    </lc>
+    <lc id="27000" prev_id="27000" desc="" image="e41.png" remark="" len="0" catnr="" purchased="" runtime="8426" identifier="0" show="true" bus="0" addr="6" iid="" prot="P" protver="1" spcnt="128" fncnt="4" V_min="10" V_mid="30" V_max="50" V_Rmin="0" V_Rmid="0" V_Rmax="0" V_step="0" mass="0" V_mode="percent" placing="true" regulated="true" dirpause="0" blockwaittime="0" evttimer="0" usescheduletime="false" commuter="false" trysamedir="false" tryoppositedir="false" engine="electric" cargo="none" secondnextblock="false" fn="true" consist="" V="0" dir="true" server="infw00E2E7B4" mode="idle" scidx="-1" fx="0" shortid="" roadname="" number="" forcesamedir="false" shortin="false" inatpre2in="false" consist_lightsoff="false" resumeauto="false" blockid="" destblockid="" V_hint="mid" throttleid="" blockenterside="true" trainlen="0" manual="false" mtime="7251" mint="0" active="true" scheduleid="" train="" V_maxkmh="0" dectype="" docu="" imagenr="0" nrcars="0" useshortid="false" throttlenr="0" V_cru="0" V_Rcru="0" restorefx="false" restorespeed="false" info4throttle="false" adjustaccel="false" maxload="380" accelmin="0" accelmax="0" swaptimer="0" ent2incorr="100" priority="10" usemanualroutes="false" useownwaittime="false" startupscid="" startuptourid="" check2in="false" usedepartdelay="false" consist_syncfunmap="0" consist_syncfun="false" usebbt="false" bbtsteps="10" bbtstartinterval="10" bbtmaxdiff="250" bbtcorrection="25" bbtusefromblock="false" cmd="modify"/>
+    <lc id="E152" prev_id="E152" desc="" image="e41.png" remark="" len="0" catnr="" purchased="" runtime="5890" identifier="0" show="true" bus="0" addr="5" iid="" prot="L" protver="1" spcnt="1" fncnt="128" V_min="10" V_mid="30" V_max="60" V_Rmin="0" V_Rmid="0" V_Rmax="0" V_step="0" mass="0" V_mode="percent" placing="true" regulated="true" dirpause="0" blockwaittime="0" evttimer="0" usescheduletime="false" commuter="false" trysamedir="false" tryoppositedir="false" engine="diesel" cargo="none" secondnextblock="false" fn="true" consist="" V="0" dir="true" server="infw00E2E634" mode="idle" scidx="-1" fx="0" blockid="" destblockid="" V_hint="min" shortid="" roadname="" number="" forcesamedir="false" shortin="false" inatpre2in="false" consist_lightsoff="false" resumeauto="true" cmd="swap" throttleid="" blockenterside="true" manual="false" mtime="0" mint="0" active="true" scheduleid="" train="" trainlen="0" dectype="" docu="" imagenr="0" nrcars="0" useshortid="false" throttlenr="0" V_cru="0" V_Rcru="0" restorefx="false" restorespeed="false" info4throttle="false" swaptimer="0" ent2incorr="100" priority="10" usemanualroutes="false" useownwaittime="false" startupscid="" startuptourid="" check2in="false" usedepartdelay="true" consist_syncfunmap="0" consist_syncfun="false" usebbt="false" bbtsteps="10" bbtstartinterval="10" bbtmaxdiff="250" bbtcorrection="25" bbtusefromblock="true"/>
+  </lclist>
+  <stlist>
+    <st id="autogen-[3A+]-[6B+]" bka="3A" bkb="6B" bkaside="true" bkbside="true" show="false" x="0" y="0" status="0">
+      <swcmd id="A7" cmd="turnout"/>
+      <swcmd id="A6" cmd="straight"/>
+      <swcmd id="A5" cmd="turnout"/>
+    </st>
+    <st id="autogen-[3A-]-[3B+]" bka="3A" bkb="3B" bkaside="false" bkbside="true" show="false" x="0" y="0" status="0"/>
+    <st id="autogen-[3B+]-[3A-]" bka="3B" bkb="3A" bkaside="true" bkbside="false" show="false" x="0" y="0" status="0"/>
+    <st id="autogen-[3B-]-[3C+]" bka="3B" bkb="3C" bkaside="false" bkbside="true" show="false" x="0" y="0" status="0"/>
+    <st id="autogen-[7B-]-[3A+]" bka="7B" bkb="3A" bkaside="false" bkbside="true" show="false" x="0" y="0" status="0" desc="" prev_id="autogen-[7B-]-[3A+]" bkc="" modid="" sga="0" sgb="0" speed="none" countcars="no" reduceV="true" maxkmh="0" swappost="false" crossingblocksignals="false" manual="false" typeperm="" maxlen="0" minlen="0" commuter="false" nocommuter="false" z="0" ori="west" ctciid1="" ctciid2="" ctciid3="" ctcaddr1="0" ctcaddr2="0" ctcaddr3="0" ctcoutput1="" ctcoutput2="" ctcoutput3="">
+      <swcmd id="A5" cmd="straight"/>
+      <swcmd id="A6" cmd="straight"/>
+      <swcmd id="A7" cmd="turnout"/>
+    </st>
+    <st id="autogen-[2A-]-[6B+]" bka="2A" bkb="6B" bkaside="false" bkbside="true" show="false" x="0" y="0" status="0">
+      <swcmd id="A7" cmd="straight"/>
+      <swcmd id="A6" cmd="straight"/>
+      <swcmd id="A5" cmd="turnout"/>
+    </st>
+    <st id="autogen-[6B-]-[6A+]" bka="6B" bkb="6A" bkaside="false" bkbside="true" show="false" x="0" y="0" status="0" desc="" prev_id="autogen-[6B-]-[6A+]" bkc="" modid="" sga="0" sgb="0" speed="none" countcars="no" reduceV="true" maxkmh="0" swappost="false" crossingblocksignals="false" manual="false" typeperm="" maxlen="0" minlen="0" commuter="false" nocommuter="false" z="0" ori="west" ctciid1="" ctciid2="" ctciid3="" ctcaddr1="0" ctcaddr2="0" ctcaddr3="0" ctcoutput1="" ctcoutput2="" ctcoutput3=""/>
+    <st id="autogen-[6B+]-[2A-]" bka="6B" bkb="2A" bkaside="true" bkbside="false" show="false" x="0" y="0" status="0">
+      <swcmd id="A5" cmd="turnout"/>
+      <swcmd id="A6" cmd="straight"/>
+      <swcmd id="A7" cmd="straight"/>
+    </st>
+    <st id="autogen-[1-]-[2B+]" bka="1" bkb="2B" bkaside="false" bkbside="true" show="false" x="0" y="0" status="0">
+      <swcmd id="A4" cmd="turnout"/>
+    </st>
+    <st id="autogen-[6A-]-[8-]" bka="6A" bkb="8" bkaside="false" bkbside="false" show="false" x="0" y="0" status="0">
+      <swcmd id="TJD" cmd="turnout"/>
+      <swcmd id="A2" cmd="turnout"/>
+      <swcmd id="A1" cmd="straight"/>
+    </st>
+    <st id="autogen-[6A-]-[9-]" bka="6A" bkb="9" bkaside="false" bkbside="false" show="false" x="0" y="0" status="0">
+      <swcmd id="TJD" cmd="turnout"/>
+      <swcmd id="A2" cmd="turnout"/>
+      <swcmd id="A1" cmd="turnout"/>
+    </st>
+    <st id="autogen-[6A-]-[4+]" bka="6A" bkb="4" bkaside="false" bkbside="true" show="false" x="0" y="0" status="0">
+      <swcmd id="TJD" cmd="right"/>
+      <swcmd id="A3" cmd="straight"/>
+    </st>
+    <st id="autogen-[7A-]-[7B+]" bka="7A" bkb="7B" bkaside="false" bkbside="true" show="false" x="0" y="0" status="0"/>
+    <st id="autogen-[7A+]-[5-]" bka="7A" bkb="5" bkaside="true" bkbside="false" show="false" x="0" y="0" status="0">
+      <swcmd id="TJD" cmd="left"/>
+      <swcmd id="A2" cmd="straight"/>
+    </st>
+    <st id="autogen-[7A+]-[8-]" bka="7A" bkb="8" bkaside="true" bkbside="false" show="false" x="0" y="0" status="0">
+      <swcmd id="TJD" cmd="left"/>
+      <swcmd id="A2" cmd="turnout"/>
+      <swcmd id="A1" cmd="straight"/>
+    </st>
+    <st id="autogen-[7A+]-[9-]" bka="7A" bkb="9" bkaside="true" bkbside="false" show="false" x="0" y="0" status="0">
+      <swcmd id="TJD" cmd="left"/>
+      <swcmd id="A2" cmd="turnout"/>
+      <swcmd id="A1" cmd="turnout"/>
+    </st>
+    <st id="autogen-[4+]-[7A+]" bka="4" bkb="7A" bkaside="true" bkbside="true" show="false" x="0" y="0" status="0">
+      <swcmd id="A3" cmd="straight"/>
+      <swcmd id="TJD" cmd="straight"/>
+    </st>
+    <st id="autogen-[4+]-[6A-]" bka="4" bkb="6A" bkaside="true" bkbside="false" show="false" x="0" y="0" status="0">
+      <swcmd id="A3" cmd="straight"/>
+      <swcmd id="TJD" cmd="right"/>
+    </st>
+    <st id="autogen-[4-]-[2B+]" bka="4" bkb="2B" bkaside="false" bkbside="true" show="false" x="0" y="0" status="0">
+      <swcmd id="B1" cmd="straight"/>
+      <swcmd id="A4" cmd="straight"/>
+    </st>
+    <st id="autogen-[4-]-[3C-]" bka="4" bkb="3C" bkaside="false" bkbside="false" show="false" x="0" y="0" status="0">
+      <swcmd id="B1" cmd="turnout"/>
+      <swcmd id="B2" cmd="turnout"/>
+    </st>
+    <st id="autogen-[2B+]-[4-]" bka="2B" bkb="4" bkaside="true" bkbside="false" show="false" x="0" y="0" status="0">
+      <swcmd id="A4" cmd="straight"/>
+      <swcmd id="B1" cmd="straight"/>
+    </st>
+    <st id="autogen-[2B+]-[1-]" bka="2B" bkb="1" bkaside="true" bkbside="false" show="false" x="0" y="0" status="0">
+      <swcmd id="A4" cmd="turnout"/>
+    </st>
+    <st id="autogen-[2B-]-[2A+]" bka="2B" bkb="2A" bkaside="false" bkbside="true" show="false" x="0" y="0" status="0">
+      <swcmd id="A8" cmd="straight"/>
+    </st>
+    <st id="autogen-[5-]-[7A+]" bka="5" bkb="7A" bkaside="false" bkbside="true" show="false" x="0" y="0" status="0">
+      <swcmd id="A2" cmd="straight"/>
+      <swcmd id="TJD" cmd="left"/>
+    </st>
+    <st id="autogen-[5+]-[3C-]" bka="5" bkb="3C" bkaside="true" bkbside="false" show="false" x="0" y="0" status="0" desc="" prev_id="autogen-[5+]-[3C-]" bkc="" modid="" sga="0" sgb="0" speed="none" countcars="no" reduceV="true" maxkmh="0" swappost="false" crossingblocksignals="false" manual="false" typeperm="" maxlen="0" minlen="0" commuter="false" nocommuter="false" z="0" ori="west" ctciid1="" ctciid2="" ctciid3="" ctcaddr1="0" ctcaddr2="0" ctcaddr3="0" ctcoutput1="" ctcoutput2="" ctcoutput3="">
+      <swcmd id="B2" cmd="straight"/>
+    </st>
+    <st id="autogen-[3C-]-[5+]" bka="3C" bkb="5" bkaside="false" bkbside="true" show="false" x="0" y="0" status="0">
+      <swcmd id="B2" cmd="straight"/>
+    </st>
+    <st id="autogen-[3C-]-[4-]" bka="3C" bkb="4" bkaside="false" bkbside="false" show="false" x="0" y="0" status="0">
+      <swcmd id="B2" cmd="turnout"/>
+      <swcmd id="B1" cmd="turnout"/>
+    </st>
+    <st id="autogen-[8-]-[6A-]" bka="8" bkb="6A" bkaside="false" bkbside="false" show="false" x="0" y="0" status="0">
+      <swcmd id="A1" cmd="straight"/>
+      <swcmd id="A2" cmd="turnout"/>
+      <swcmd id="TJD" cmd="turnout"/>
+    </st>
+    <st id="autogen-[8-]-[7A+]" bka="8" bkb="7A" bkaside="false" bkbside="true" show="false" x="0" y="0" status="0">
+      <swcmd id="A1" cmd="straight"/>
+      <swcmd id="A2" cmd="turnout"/>
+      <swcmd id="TJD" cmd="left"/>
+    </st>
+    <st id="autogen-[9-]-[6A-]" bka="9" bkb="6A" bkaside="false" bkbside="false" show="false" x="0" y="0" status="0">
+      <swcmd id="A1" cmd="turnout"/>
+      <swcmd id="A2" cmd="turnout"/>
+      <swcmd id="TJD" cmd="turnout"/>
+    </st>
+    <st id="autogen-[9-]-[7A+]" bka="9" bkb="7A" bkaside="false" bkbside="true" show="false" x="0" y="0" status="0">
+      <swcmd id="A1" cmd="turnout"/>
+      <swcmd id="A2" cmd="turnout"/>
+      <swcmd id="TJD" cmd="left"/>
+    </st>
+  </stlist>
+  <mv/>
+  <txlist>
+    <tx text="&lt;- zone11 -&gt;" id="tx20090729235412281" x="8" y="5" z="0" prev_id="tx20090729235412281" desc="" pointsize="0" bold="false" underlined="false" italic="false" transparent="true" ori="west" cx="3" cy="1"/>
+    <tx text="&lt; zone 10 &gt;" id="tx20090731163837968" x="8" y="13" z="0" prev_id="tx20090731163837968" desc="" pointsize="0" bold="false" underlined="false" italic="false" transparent="true" ori="west" cx="3" cy="1"/>
+    <tx text="1b" id="tx20091001141417781" x="14" y="8" z="0"/>
+    <tx text="1a" id="tx20091001141421125" x="18" y="9" z="0"/>
+  </txlist>
+  <sclist>
+    <sc id="GrandTour7" prev_id="GrandTour7" timeframe="1" timeprocessing="0" fromhour="0" tohour="0" cycles="0" scaction="GrandTour7">
+      <scentry block="7A" hour="0" minute="0" swap="false" free2go="false" indelay="0" location=""/>
+      <scentry block="3A" hour="0" minute="0" swap="false" free2go="false" indelay="0"/>
+      <scentry block="3B" hour="0" minute="0" swap="false" free2go="false" indelay="0"/>
+      <scentry block="5" hour="0" minute="0" swap="false" free2go="false" indelay="0"/>
+      <scentry block="7A" hour="0" minute="0" swap="false" free2go="false" indelay="0" location=""/>
+      <scentry block="7A" hour="0" minute="0" swap="true" free2go="false" indelay="0"/>
+      <scentry block="5" hour="0" minute="0" swap="false" free2go="false" indelay="0"/>
+      <scentry block="3B" hour="0" minute="0" swap="false" free2go="false" indelay="0"/>
+      <scentry block="3A" hour="0" minute="0" swap="false" free2go="false" indelay="0"/>
+      <scentry block="7A" hour="0" minute="0" swap="false" free2go="false" indelay="0"/>
+    </sc>
+  </sclist>
+  <locationlist>
+    <location id="P6" prev_id="P6" blocks="6B"/>
+  </locationlist>
+  <boosterlist/>
+  <sglist>
+    <sg id="F3A" x="18" y="5" z="0" state="red" manual="false" aspect="0" porttype="0" prev_id="F3A" desc="" blockid="3A" road="false" routeids="autogen-[3A-]-[3B+],autogen-[3B+]-[3A-]" ori="east" iid="" bus="0" addr="32" addr2="0" addr3="0" addr4="0" port1="0" port2="0" port3="0" port4="0" gate1="0" gate2="0" gate3="0" gate4="0" prot="M" type="semaphore" signal="main" aspects="3" symbolprefix="" dwarf="false" usepatterns="0" inv="false" pair="false" asswitch="false" accessory="true" cmdtime="0" green="0" red="0" yellow="0" white="0" blank="0" greennr="0" rednr="0" yellownr="0" whitenr="0" blanknr="0" usesymbolprefix="false"/>
+    <sg id="F3B" x="26" y="5" z="0" state="green" manual="false" aspect="0" ori="east" porttype="0" prev_id="F3B" desc="" blockid="3B" road="false" routeids="autogen-[3B-]-[3C+]" iid="" bus="0" addr="102" addr2="0" addr3="0" addr4="0" port1="0" port2="0" port3="0" port4="0" gate1="0" gate2="0" gate3="0" gate4="0" prot="N" type="semaphore" signal="main" aspects="3" symbolprefix="" dwarf="false" usepatterns="0" inv="false" pair="false" asswitch="false" accessory="true" cmdtime="0" green="0" red="0" yellow="0" white="0" blank="0" greennr="0" rednr="0" yellownr="0" whitenr="0" blanknr="0" usesymbolprefix="false"/>
+    <sg id="F7B" x="7" y="6" z="0" state="green" manual="false" aspect="0" ori="east" porttype="0" prev_id="F7B" desc="" blockid="7B" road="false" routeids="autogen-[7B-]-[2A-],autogen-[7B-]-[3A+]" iid="" bus="0" addr="72" addr2="0" addr3="0" addr4="0" port1="0" port2="0" port3="0" port4="0" gate1="0" gate2="0" gate3="0" gate4="0" prot="M" type="light" signal="main" aspects="3" symbolprefix="" dwarf="false" usepatterns="0" inv="false" pair="false" asswitch="false" accessory="true" cmdtime="0" green="0" red="0" yellow="0" white="0" blank="0" greennr="0" rednr="0" yellownr="0" whitenr="0" blanknr="0" usesymbolprefix="false"/>
+    <sg id="F5" x="12" y="16" z="0" state="green" manual="false" aspect="0" porttype="0" prev_id="F5" desc="" blockid="5" road="false" routeids="autogen-[6A-]-[5-],autogen-[7A+]-[5-],autogen-[5-]-[6A-],autogen-[5-]-[7A+]" ori="west" iid="" bus="0" addr="52" addr2="0" addr3="0" addr4="0" port1="0" port2="0" port3="0" port4="0" gate1="0" gate2="0" gate3="0" gate4="0" prot="M" type="light" signal="main" aspects="3" symbolprefix="" dwarf="false" usepatterns="0" inv="false" pair="false" asswitch="false" accessory="true" cmdtime="0" green="0" red="0" yellow="0" white="0" blank="0" greennr="0" rednr="0" yellownr="0" whitenr="0" blanknr="0" usesymbolprefix="false"/>
+    <sg id="F3C" x="20" y="16" z="0" state="green" manual="false" aspect="0" porttype="0" prev_id="F3C" desc="" blockid="3C" road="false" routeids="autogen-[4-]-[3C-],autogen-[5+]-[3C-],autogen-[3C-]-[5+],autogen-[3C-]-[4-]" ori="west" iid="" bus="0" addr="34" addr2="0" addr3="0" addr4="0" port1="0" port2="0" port3="0" port4="0" gate1="0" gate2="0" gate3="0" gate4="0" prot="M" type="light" signal="main" aspects="3" symbolprefix="" dwarf="false" usesymbolprefix="false" usepatterns="0" inv="false" pair="false" asswitch="false" accessory="true" cmdtime="0" green="0" red="0" yellow="0" white="0" blank="0" greennr="0" rednr="0" yellownr="0" whitenr="0" blanknr="0"/>
+    <sg id="F7A" x="2" y="15" z="0" state="green" manual="false" aspect="0" porttype="0" prev_id="F7A" desc="" blockid="7A" road="false" routeids="autogen-[7A-]-[7B+]" ori="west" iid="" bus="0" addr="38" addr2="0" addr3="0" addr4="0" port1="0" port2="0" port3="0" port4="0" gate1="0" gate2="0" gate3="0" gate4="0" prot="M" type="light" signal="main" aspects="3" symbolprefix="" dwarf="false" usesymbolprefix="false" usepatterns="0" inv="false" pair="false" asswitch="false" accessory="true" cmdtime="0" green="0" red="0" yellow="0" white="0" blank="0" greennr="0" rednr="0" yellownr="0" whitenr="0" blanknr="0"/>
+    <sg id="F6A" x="7" y="14" z="0" state="green" manual="false" aspect="0" ori="east" porttype="0" prev_id="F6A" desc="" blockid="6A" road="false" routeids="autogen-[6A-]-[5-],autogen-[6A-]-[8-],autogen-[6A-]-[9-],autogen-[6A-]-[4+],autogen-[4+]-[6A-],autogen-[5-]-[6A-],autogen-[8-]-[6A-],autogen-[9-]-[6A-]" iid="" bus="0" addr="36" addr2="0" addr3="0" addr4="0" port1="0" port2="0" port3="0" port4="0" gate1="0" gate2="0" gate3="0" gate4="0" prot="M" type="light" signal="main" aspects="3" symbolprefix="" dwarf="false" usesymbolprefix="false" usepatterns="0" inv="false" pair="false" asswitch="false" accessory="true" cmdtime="0" green="0" red="0" yellow="0" white="0" blank="0" greennr="0" rednr="0" yellownr="0" whitenr="0" blanknr="0"/>
+    <sg id="F2B" x="25" y="15" z="0" state="green" manual="false" aspect="0" ori="east" porttype="0" prev_id="F2B" desc="" blockid="2B" road="false" routeids="autogen-[2B-]-[2A+]" iid="" bus="0" addr="33" addr2="0" addr3="0" addr4="0" port1="0" port2="0" port3="0" port4="0" gate1="0" gate2="0" gate3="0" gate4="0" prot="M" type="light" signal="main" aspects="3" symbolprefix="" dwarf="false" usesymbolprefix="false" usepatterns="0" inv="false" pair="false" asswitch="false" accessory="true" cmdtime="0" green="0" red="0" yellow="0" white="0" blank="0" greennr="0" rednr="0" yellownr="0" whitenr="0" blanknr="0"/>
+    <sg id="F4" x="17" y="15" z="0" state="green" manual="false" aspect="0" ori="east" porttype="0" prev_id="F4" desc="" blockid="4" road="false" routeids="autogen-[4-]-[2B+],autogen-[4-]-[3C-],autogen-[2B+]-[4-],autogen-[3C-]-[4-]" iid="" bus="0" addr="42" addr2="0" addr3="0" addr4="0" port1="0" port2="0" port3="0" port4="0" gate1="0" gate2="0" gate3="0" gate4="0" prot="M" type="light" signal="main" aspects="3" symbolprefix="" dwarf="false" usesymbolprefix="false" usepatterns="0" inv="false" pair="false" asswitch="false" accessory="true" cmdtime="0" green="0" red="0" yellow="0" white="0" blank="0" greennr="0" rednr="0" yellownr="0" whitenr="0" blanknr="0"/>
+    <sg id="F8" x="12" y="17" z="0" state="green" manual="false" aspect="0" porttype="0" prev_id="F8" desc="" blockid="8" road="false" routeids="autogen-[6A-]-[8-],autogen-[7A+]-[8-],autogen-[8-]-[6A-],autogen-[8-]-[7A+]" ori="west" iid="" bus="0" addr="39" addr2="0" addr3="0" addr4="0" port1="0" port2="0" port3="0" port4="0" gate1="0" gate2="0" gate3="0" gate4="0" prot="M" type="light" signal="main" aspects="3" symbolprefix="" dwarf="false" usesymbolprefix="false" usepatterns="0" inv="false" pair="false" asswitch="false" accessory="true" cmdtime="0" green="0" red="0" yellow="0" white="0" blank="0" greennr="0" rednr="0" yellownr="0" whitenr="0" blanknr="0"/>
+    <sg id="F9" x="12" y="18" z="0" state="green" manual="false" aspect="0" porttype="0" prev_id="F9" desc="" blockid="9" road="false" routeids="autogen-[6A-]-[9-],autogen-[7A+]-[9-],autogen-[9-]-[6A-],autogen-[9-]-[7A+]" ori="west" iid="" bus="0" addr="40" addr2="0" addr3="0" addr4="0" port1="0" port2="0" port3="0" port4="0" gate1="0" gate2="0" gate3="0" gate4="0" prot="M" type="light" signal="main" aspects="3" symbolprefix="" dwarf="false" usesymbolprefix="false" usepatterns="0" inv="false" pair="false" asswitch="false" accessory="true" cmdtime="0" green="0" red="0" yellow="0" white="0" blank="0" greennr="0" rednr="0" yellownr="0" whitenr="0" blanknr="0"/>
+    <sg id="F6B" x="3" y="7" z="0" state="green" manual="false" aspect="0" porttype="0" prev_id="F6B" desc="" blockid="6B" road="false" routeids="autogen-[6B-]-[6A+]" ori="west" iid="" bus="0" addr="41" addr2="0" addr3="0" addr4="0" port1="0" port2="0" port3="0" port4="0" gate1="0" gate2="0" gate3="0" gate4="0" prot="M" type="light" signal="main" aspects="3" symbolprefix="" dwarf="false" usesymbolprefix="false" usepatterns="0" inv="false" pair="false" asswitch="false" accessory="true" cmdtime="0" green="0" red="0" yellow="0" white="0" blank="0" greennr="0" rednr="0" yellownr="0" whitenr="0" blanknr="0"/>
+    <sg id="F2A" x="13" y="6" z="0" state="green" manual="false" aspect="0" porttype="0" prev_id="F2A" desc="" blockid="2A" road="false" routeids="autogen-[7B-]-[2A-],autogen-[2A-]-[6B+],autogen-[6B+]-[2A-]" ori="west" iid="" bus="0" addr="89" addr2="0" addr3="0" addr4="0" port1="0" port2="0" port3="0" port4="0" gate1="0" gate2="0" gate3="0" gate4="0" prot="M" type="light" signal="main" aspects="3" symbolprefix="" dwarf="false" usesymbolprefix="false" usepatterns="0" inv="false" pair="false" asswitch="false" accessory="true" cmdtime="0" green="0" red="0" yellow="0" white="0" blank="0" greennr="0" rednr="0" yellownr="0" whitenr="0" blanknr="0"/>
+  </sglist>
+  <operatorlist>
+    <operator id="kelly" prev_id="kelly" lcid="67500" carids=""/>
+    <operator id="koko" prev_id="koko" lcid="27000" carids=""/>
+    <operator id="Zephie" prev_id="Zephie" lcid="E152" carids=""/>
+  </operatorlist>
+</plan>

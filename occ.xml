@@ -1,0 +1,21 @@
+<modocc>
+  <occ bkid="1" auto="false" closed="true" placing="0"/>
+  <occ bkid="2" lcid="" auto="false" closed="false" placing="0" blockenterside="2"/>
+  <occ bkid="3" auto="false" closed="false" placing="0" lcid="" blockenterside="2"/>
+  <occ bkid="4" lcid="" auto="false" closed="false" placing="0" blockenterside="1"/>
+  <occ bkid="5" auto="false" closed="false" placing="0" lcid="" blockenterside="1"/>
+  <occ bkid="6" lcid="" auto="false" closed="false" placing="0"/>
+  <occ bkid="7" lcid="" auto="false" closed="false" placing="0" blockenterside="1"/>
+  <occ bkid="8" lcid="" auto="false" closed="false" placing="0" blockenterside="2"/>
+  <occ bkid="9" lcid="" auto="false" closed="false" placing="0" blockenterside="1"/>
+  <occ bkid="10" lcid="" auto="false" closed="false" placing="0" blockenterside="2"/>
+  <occ bkid="2A" lcid="" auto="false" closed="false" placing="0" blockenterside="1"/>
+  <occ bkid="2B" lcid="" auto="false" closed="false" placing="0" blockenterside="1"/>
+  <occ bkid="3A" lcid="" auto="false" closed="false" placing="0" blockenterside="1"/>
+  <occ bkid="3B" lcid="" auto="false" closed="false" placing="0" blockenterside="1"/>
+  <occ bkid="3C" lcid="" auto="false" closed="false" placing="0" blockenterside="1"/>
+  <occ bkid="6A" lcid="" auto="false" closed="false" placing="0" blockenterside="2"/>
+  <occ bkid="6B" lcid="" auto="false" closed="false" placing="0" blockenterside="1"/>
+  <occ bkid="7A" lcid="" auto="false" closed="false" placing="0" blockenterside="1"/>
+  <occ bkid="7B" lcid="" auto="false" closed="false" placing="0" blockenterside="1"/>
+</modocc>
